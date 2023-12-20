@@ -104,6 +104,11 @@ git tag -a 2.0 -m "This is the latest version"
 git remote add origin https://github.com/guo-kaige/Study.git
 git push origin master 
 
+# list branch
+git branch
+git branch -a
+
+
 git config --global credential.helper manager
 ```
 
