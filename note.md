@@ -112,7 +112,7 @@ git ls-remote
 git fetch origin
 
 git branch --track feature-remote-local origin/feature-remote
-
+ git branch -vv
 
 git config --global credential.helper manager
 ```
