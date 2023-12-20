@@ -108,7 +108,8 @@ git push origin master
 git branch
 git branch -a
 git branch -r
-
+git ls-remote
+git fetch origin
 
 
 git config --global credential.helper manager
