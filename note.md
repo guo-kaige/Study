@@ -107,6 +107,8 @@ git push origin master
 # list branch
 git branch
 git branch -a
+git branch -r
+
 
 
 git config --global credential.helper manager
