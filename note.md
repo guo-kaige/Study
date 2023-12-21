@@ -112,7 +112,13 @@ git ls-remote
 git fetch origin
 
 git branch --track feature-remote-local origin/feature-remote
- git branch -vv
+git branch -vv
+
+git remote
+git remote show origin
+git clone git@github.com:guo-kaige/Study.git
+
+
 
 git config --global credential.helper manager
 ```
