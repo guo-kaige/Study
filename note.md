@@ -120,6 +120,11 @@ git clone git@github.com:guo-kaige/Study.git
 
 # push local branch to remote (if remote not have this branch, will create)
 git push -u origin feature-local
+# delete remote tracking branch
+git branch --delete --remote origin/feature
+# delete remote branch
+git push origin --delete feature
+git push --force origin master
 
 
 git config --global credential.helper manager
