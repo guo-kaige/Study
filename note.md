@@ -118,6 +118,8 @@ git remote
 git remote show origin
 git clone git@github.com:guo-kaige/Study.git
 
+# push local branch to remote (if remote not have this branch, will create)
+git push -u origin feature-local
 
 
 git config --global credential.helper manager
